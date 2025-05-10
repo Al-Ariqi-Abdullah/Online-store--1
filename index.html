@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر التقنية</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>متجر التقنية</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="btn">الرئيسية</a></li>
+        <li><a href="cart.html" class="btn">السلة</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>منتجاتنا</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="سماعة">
+        <h3>سماعة بلوتوث</h3>
+        <p>5000 ريال</p>
+        <button onclick="addToCart('سماعة بلوتوث', 5000)">أضف إلى السلة</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="ساعة">
+        <h3>ساعة ذكية</h3>
+        <p>7500 ريال</p>
+        <button onclick="addToCart('ساعة ذكية', 7500)">أضف إلى السلة</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
